@@ -26,42 +26,43 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 
 - Launch **Autopsy** and **Run as a administrator**  
 - Click **Create New Case**.  
+![image](https://github.com/user-attachments/assets/55b36063-3d53-4605-86c8-8b1a6dcf5468)
 
-![](./images/a1.png)
 
 - Enter a **Case Name** (e.g., `Autopsy1`).  
 - Choose a **Case Folder** location.  
 - Click **Next** → Click **Finish**.  
 
-![](./images/a2.png)
+![image](https://github.com/user-attachments/assets/ee413f79-6012-4e4d-aa39-411e9b493910)
+
 
 ### **Add the Virtual Disk as an Evidence Source**  
 - Click **Add Data Source**  → **Select Host**
+![image](https://github.com/user-attachments/assets/e4297d46-3fb9-46c3-ad34-12628bac0494)
 
-![](./images/a3.png)
 
 - Select **Local Disk** → **next** 
+![image](https://github.com/user-attachments/assets/a4f1c26a-3894-4f56-80b0-c437ea738779)
 
-![](./images/a4.png)
 
 - Select Disk → **Choose the VHD drive (`Drive1`)**
 
-![](./images/a5.png)
+![image](https://github.com/user-attachments/assets/b4902fb9-81ea-4228-8786-d504b788a46c)
+
 
 - Click **Next** → Keep default settings → Click **Finish**.  
 - Wait for Autopsy to process the disk.  
 
 ### **Recover Deleted Files**  
 - Go to **File Views** (left panel).  
+![image](https://github.com/user-attachments/assets/9ec07d47-5526-4e24-9a5d-307c03031383)
+![image](https://github.com/user-attachments/assets/6eb7b3fd-83fb-4059-bc1c-ed5a2ca9ef82)
 
-![](./images/a6.png)
-
-![](./images/a7.png)
 
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
+![image](https://github.com/user-attachments/assets/5f9e7529-56e6-4df4-bcb7-c92e98c2d287)
 
-![](./images/a8.png)
 
 - Select a folder to see the recovered files (e.g., `C:\forensic`).  
 - Image is recovered successfully.
@@ -69,13 +70,15 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 
 ## Output :
 ### Folder before deleting the files
-![](./images/f1.png)
+![image](https://github.com/user-attachments/assets/78bf64a8-944c-494b-bb0d-97d97c804eb1)
+
 
 ### Folder after deleting the files
-![](./images/a9.png)
+![image](https://github.com/user-attachments/assets/6af9a20b-da14-487c-bd36-84d6d7adab62)
+
 
 ### Folder after extracting the deleted images using autopsy
-![](./images/a10.png)
+![image](https://github.com/user-attachments/assets/9723a5ad-3cd4-4679-b99d-426b0aaf6b9f)
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
